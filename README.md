@@ -18,7 +18,7 @@ This program runs on PYTHON 3 so all dependencies will need to be versions that 
 
 *Image files*
 
-Unfortunately, the images are all too big to be stored in GitHub, so they'll need to be downloaded from [here](https://www.dropbox.com/s/ebnuk1nmibvcs7s/Dataset.zip?dl=0). The folder contains the HD5 file already created to map the images. If this doesn't work for you somehow, you can just download the images and then run the array+and+label+data.py file to create your own HD5 data file (which will work with the models so long as they are stored in the same directory).
+The images used for this project come from the [INRIA Dataset](http://pascal.inrialpes.fr/data/human/). Unfortunately, the collection of images is too big to be stored in GitHub, so they'll need to be downloaded from [here](https://www.dropbox.com/s/ebnuk1nmibvcs7s/Dataset.zip?dl=0). The folder contains the HD5 file already created to map the images. If this doesn't work for you somehow, you can just download the images and then run the array+and+label+data.py file to create your own HD5 data file (which will work with the models so long as they are stored in the same directory).
 
 *Models*
 
