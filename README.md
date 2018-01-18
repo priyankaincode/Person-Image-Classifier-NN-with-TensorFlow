@@ -26,7 +26,7 @@ To "install" the models, simply download the Person_or_not_DL_TF.py and pnp_tf_u
 
 **USAGE**
 
-This 5-layer ReLu/Sigmoid model uses Xavier initialization, L2 regularization, gradient descent, and Adam optimization. The five layers here are 230400, 30, 6, 4, 1, with a learning rate of 0.01 and a lambda of 0.8. There is also a model that includes batch gradient descent included in here, but it takes FAR TOO LONG to run and is ultimately very inefficient so the default setting uses batch gradient descent. You can edit line 234 in Person_or_not_DL_TF.py to use the minibatches if you wish, though. Run Person_or_not_DL.py in the command line to train the model and predict on the validation and test sets. For 1500 epochs - as it is set to by default - it took almost three hours on my little Macbook Pro to run, but if you have access to more computing power, it will take less time!
+This 5-layer ReLu/Sigmoid model uses Xavier initialization, L2 regularization, gradient descent, and Adam optimization. The five layers here are 230400, 30, 6, 4, 1, with a learning rate of 0.01 and a lambda of 0.8. There is also a model that includes minibatch gradient descent included in here, but it takes FAR TOO LONG to run and is ultimately very inefficient so the default setting uses batch gradient descent. You can edit line 234 in Person_or_not_DL_TF.py to use the minibatches if you wish, though. Run Person_or_not_DL.py in the command line to train the model and predict on the validation and test sets. For 1500 epochs - as it is set to by default - it took almost three hours on my little Macbook Pro to run, but if you have access to more computing power, it will take less time!
 
 **ANALYSIS**
 
